@@ -1,0 +1,24 @@
+{
+  "name": "koa-package-version",
+  "version": "0.0.1",
+  "description": "Koa middleware for serving package.json version",
+  "main": "index.js",
+  "scripts": {
+    "lint": "node_modules/jshint/bin/jshint",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rjz/koa-package-version"
+  },
+  "keywords": ["koa","middleware","version","npm","package"],
+  "author": "RJ Zaworski <rj@rjzaworski.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rjz/koa-package-version/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "~2.5.2"
+  }
+}
